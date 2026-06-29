@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neeraj Gandharva | Flutter Developer</title>
+
+<style>
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:Arial,sans-serif;
+}
+
+body{
+ background:#0D1117;
+ color:white;
+ line-height:1.6;
+}
+
+.container{
+ width:90%;
+ max-width:1200px;
+ margin:auto;
+}
+
+header{
+ padding:60px 0;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ flex-wrap:wrap;
+}
+
+.profile-img{
+ width:220px;
+ height:220px;
+ border-radius:50%;
+ border:4px solid #58A6FF;
+ object-fit:cover;
+}
+
+.hero-text{
+ max-width:650px;
+}
+
+.hero-text h1{
+ font-size:52px;
+ margin-bottom:10px;
+ color:#58A6FF;
+}
+
+.hero-text h2{
+ font-size:28px;
+ margin-bottom:15px;
+}
+
+.hero-text p{
+ color:#c9d1d9;
+ margin-bottom:20px;
+}
+
+.btn{
+ background:#58A6FF;
+ color:black;
+ padding:12px 22px;
+ text-decoration:none;
+ border-radius:6px;
+ margin-right:10px;
+ font-weight:bold;
+}
+
+section{
+ padding:60px 0;
+}
+
+.section-title{
+ font-size:32px;
+ margin-bottom:30px;
+ color:#58A6FF;
+}
+
+.skills-grid{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+ gap:20px;
+}
+
+.skill-card{
+ background:#161B22;
+ padding:20px;
+ text-align:center;
+ border-radius:10px;
+ transition:.3s;
+}
+
+.skill-card:hover{
+ transform:translateY(-5px);
+}
+
+.project-grid{
+ display:grid;
+ grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+ gap:20px;
+}
+
+.project-card{
+ background:#161B22;
+ padding:25px;
+ border-radius:10px;
+}
+
+.timeline{
+ border-left:3px solid #58A6FF;
+ padding-left:20px;
+}
+
+.timeline div{
+ margin-bottom:25px;
+}
+
+footer{
+ padding:40px;
+ text-align:center;
+ background:#161B22;
+ margin-top:50px;
+}
+
+.contact a{
+ color:#58A6FF;
+ text-decoration:none;
+}
+
+@media(max-width:768px){
+ header{
+   flex-direction:column;
+   text-align:center;
+ }
+ .profile-img{
+   margin-bottom:30px;
+ }
+ .hero-text h1{
+   font-size:36px;
+ }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+
+<img src="https://via.placeholder.com/220" class="profile-img">
+
+<div class="hero-text">
+
+<h1>Neeraj Gandharva</h1>
+
+<h2>Senior Flutter & Android Developer</h2>
+
+<p>
+9+ Years Experience Building Scalable Mobile Applications.
+Flutter | Android | Firebase | BLoC | Clean Architecture
+</p>
+
+<a href="#" class="btn">Download Resume</a>
+
+<a href="#contact" class="btn">Contact Me</a>
+
+</div>
+
+</header>
+
+<section>
+
+<h2 class="section-title">About Me</h2>
+
+<p>
+Senior Mobile Developer with 9+ years of experience building high-performance mobile applications across FinTech, E-commerce, Astrology, Coaching, Job Portal and Wallet Applications.
+</p>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Technical Skills</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">Flutter</div>
+<div class="skill-card">Android</div>
+<div class="skill-card">Dart</div>
+<div class="skill-card">Java</div>
+<div class="skill-card">Kotlin</div>
+<div class="skill-card">Firebase</div>
+<div class="skill-card">BLoC</div>
+<div class="skill-card">GetX</div>
+<div class="skill-card">Provider</div>
+<div class="skill-card">REST API</div>
+<div class="skill-card">CI/CD</div>
+<div class="skill-card">Clean Architecture</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Experience</h2>
+
+<div class="timeline">
+
+<div>
+<h3>HyperBeans Technologies Pvt Ltd</h3>
+<p>Senior Flutter Developer (2019 - 2026)</p>
+</div>
+
+<div>
+<h3>GeeCom India Services Pvt Ltd</h3>
+<p>Senior Android Developer (2018 - 2019)</p>
+</div>
+
+<div>
+<h3>Maestros Infotech Pvt Ltd</h3>
+<p>Senior Android Developer (2017 - 2018)</p>
+</div>
+
+<div>
+<h3>C-DAC Pune</h3>
+<p>Software Engineer (2011 - 2014)</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="section-title">Featured Projects</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+<h3>LinkConnect</h3>
+<p>Job Portal App with Social Login and Push Notifications</p>
+</div>
+
+<div class="project-card">
+<h3>Trilok</h3>
+<p>Astrology Platform with Wallet Recharge and Calling</p>
+</div>
+
+<div class="project-card">
+<h3>DiamondXE</h3>
+<p>Diamond Exchange Platform with Secure Transactions</p>
+</div>
+
+<div class="project-card">
+<h3>TipMe Global</h3>
+<p>International Wallet and Money Transfer App</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">Contact</h2>
+
+<div class="contact">
+
+<p>Email: yourmail@gmail.com</p>
+
+<p>
+GitHub:
+<a href="https://github.com/singhneeraj0687-max">
+github.com/singhneeraj0687-max
+</a>
+</p>
+
+<p>
+LinkedIn:
+<a href="#">
+Add Your LinkedIn
+</a>
+</p>
+
+</div>
+
+</section>
+
+</div>
+
+<footer>
+
+<p>© 2026 Neeraj Gandharva | Senior Flutter Developer</p>
+
+</footer>
+
+</body>
+</html>
