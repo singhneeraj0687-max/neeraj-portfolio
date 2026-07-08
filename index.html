@@ -1,305 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Neeraj Gandharva | Flutter Developer</title>
 
-<style>
-*{
- margin:0;
- padding:0;
- box-sizing:border-box;
- font-family:Arial,sans-serif;
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-body{
- background:#0D1117;
- color:white;
- line-height:1.6;
-}
+    <title>Neeraj Gandharva | Senior Flutter Developer</title>
 
-.container{
- width:90%;
- max-width:1200px;
- margin:auto;
-}
+    <link rel="stylesheet" href="style.css">
 
-header{
- padding:60px 0;
- display:flex;
- justify-content:space-between;
- align-items:center;
- flex-wrap:wrap;
-}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 
-.profile-img{
- width:220px;
- height:220px;
- border-radius:50%;
- border:4px solid #58A6FF;
- object-fit:cover;
-}
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-.hero-text{
- max-width:650px;
-}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-.hero-text h1{
- font-size:52px;
- margin-bottom:10px;
- color:#58A6FF;
-}
+    <script src="https://kit.fontawesome.com/7a4b62b0a4.js" crossorigin="anonymous"></script>
 
-.hero-text h2{
- font-size:28px;
- margin-bottom:15px;
-}
-
-.hero-text p{
- color:#c9d1d9;
- margin-bottom:20px;
-}
-
-.btn{
- background:#58A6FF;
- color:black;
- padding:12px 22px;
- text-decoration:none;
- border-radius:6px;
- margin-right:10px;
- font-weight:bold;
-}
-
-section{
- padding:60px 0;
-}
-
-.section-title{
- font-size:32px;
- margin-bottom:30px;
- color:#58A6FF;
-}
-
-.skills-grid{
- display:grid;
- grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
- gap:20px;
-}
-
-.skill-card{
- background:#161B22;
- padding:20px;
- text-align:center;
- border-radius:10px;
- transition:.3s;
-}
-
-.skill-card:hover{
- transform:translateY(-5px);
-}
-
-.project-grid{
- display:grid;
- grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
- gap:20px;
-}
-
-.project-card{
- background:#161B22;
- padding:25px;
- border-radius:10px;
-}
-
-.timeline{
- border-left:3px solid #58A6FF;
- padding-left:20px;
-}
-
-.timeline div{
- margin-bottom:25px;
-}
-
-footer{
- padding:40px;
- text-align:center;
- background:#161B22;
- margin-top:50px;
-}
-
-.contact a{
- color:#58A6FF;
- text-decoration:none;
-}
-
-@media(max-width:768px){
- header{
-   flex-direction:column;
-   text-align:center;
- }
- .profile-img{
-   margin-bottom:30px;
- }
- .hero-text h1{
-   font-size:36px;
- }
-}
-</style>
 </head>
 
 <body>
 
-<div class="container">
+    <!-- ================= NAVBAR ================= -->
 
-<header>
+    <nav>
 
-<img src="https://via.placeholder.com/220" class="profile-img">
+        <div class="logo">
 
-<div class="hero-text">
+            Neeraj.
 
-<h1>Neeraj Gandharva</h1>
+        </div>
 
-<h2>Senior Flutter & Android Developer</h2>
+        <ul>
 
-<p>
-9+ Years Experience Building Scalable Mobile Applications.
-Flutter | Android | Firebase | BLoC | Clean Architecture
-</p>
+            <li><a href="#home">Home</a></li>
 
-<a href="#" class="btn">Download Resume</a>
+            <li><a href="#about">About</a></li>
 
-<a href="#contact" class="btn">Contact Me</a>
+            <li><a href="#skills">Skills</a></li>
 
-</div>
+            <li><a href="#experience">Experience</a></li>
 
-</header>
+            <li><a href="#projects">Projects</a></li>
 
-<section>
+            <li><a href="#contact">Contact</a></li>
 
-<h2 class="section-title">About Me</h2>
+        </ul>
 
-<p>
-Senior Mobile Developer with 9+ years of experience building high-performance mobile applications across FinTech, E-commerce, Astrology, Coaching, Job Portal and Wallet Applications.
-</p>
+    </nav>
 
-</section>
 
-<section>
 
-<h2 class="section-title">Technical Skills</h2>
 
-<div class="skills-grid">
 
-<div class="skill-card">Flutter</div>
-<div class="skill-card">Android</div>
-<div class="skill-card">Dart</div>
-<div class="skill-card">Java</div>
-<div class="skill-card">Kotlin</div>
-<div class="skill-card">Firebase</div>
-<div class="skill-card">BLoC</div>
-<div class="skill-card">GetX</div>
-<div class="skill-card">Provider</div>
-<div class="skill-card">REST API</div>
-<div class="skill-card">CI/CD</div>
-<div class="skill-card">Clean Architecture</div>
+    <!-- ================= HERO ================= -->
 
-</div>
+    <section id="home" class="hero">
 
-</section>
+        <div class="hero-left">
 
-<section>
+            <span>Hello 👋 I'm</span>
 
-<h2 class="section-title">Experience</h2>
+            <h1>Neeraj Gandharva</h1>
 
-<div class="timeline">
+            <h2 id="typing"></h2>
 
-<div>
-<h3>HyperBeans Technologies Pvt Ltd</h3>
-<p>Senior Flutter Developer (2019 - 2026)</p>
-</div>
+            <p>
 
-<div>
-<h3>GeeCom India Services Pvt Ltd</h3>
-<p>Senior Android Developer (2018 - 2019)</p>
-</div>
+                Senior Flutter & Android Developer with 9+ years of experience
 
-<div>
-<h3>Maestros Infotech Pvt Ltd</h3>
-<p>Senior Android Developer (2017 - 2018)</p>
-</div>
+                building scalable mobile applications using Flutter,
 
-<div>
-<h3>C-DAC Pune</h3>
-<p>Software Engineer (2011 - 2014)</p>
-</div>
+                Android, Firebase, Clean Architecture and REST APIs.
 
-</div>
+            </p>
 
-</section>
+            <div class="buttons">
 
-<section>
+                <a href="resume.pdf" download class="btn">
 
-<h2 class="section-title">Featured Projects</h2>
+                    Download Resume
 
-<div class="project-grid">
+                </a>
 
-<div class="project-card">
-<h3>LinkConnect</h3>
-<p>Job Portal App with Social Login and Push Notifications</p>
-</div>
+                <a href="#contact" class="btn-outline">
 
-<div class="project-card">
-<h3>Trilok</h3>
-<p>Astrology Platform with Wallet Recharge and Calling</p>
-</div>
+                    Contact Me
 
-<div class="project-card">
-<h3>DiamondXE</h3>
-<p>Diamond Exchange Platform with Secure Transactions</p>
-</div>
+                </a>
 
-<div class="project-card">
-<h3>TipMe Global</h3>
-<p>International Wallet and Money Transfer App</p>
-</div>
+            </div>
 
-</div>
+            <div class="social">
 
-</section>
+                <a href="https://github.com/singhneeraj0687-max" target="_blank">
 
-<section id="contact">
+                    <i class="fab fa-github"></i>
 
-<h2 class="section-title">Contact</h2>
+                </a>
 
-<div class="contact">
+                <a href="#">
 
-<p>Email: yourmail@gmail.com</p>
+                    <i class="fab fa-linkedin"></i>
 
-<p>
-GitHub:
-<a href="https://github.com/singhneeraj0687-max">
-github.com/singhneeraj0687-max
-</a>
-</p>
+                </a>
 
-<p>
-LinkedIn:
-<a href="#">
-Add Your LinkedIn
-</a>
-</p>
+                <a href="mailto:yourmail@gmail.com">
 
-</div>
+                    <i class="fa-solid fa-envelope"></i>
 
-</section>
+                </a>
 
-</div>
+            </div>
 
-<footer>
+        </div>
 
-<p>© 2026 Neeraj Gandharva | Senior Flutter Developer</p>
+        <div class="hero-right">
 
-</footer>
+            <img src="profile.jpg">
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <p>
+
+            Senior Flutter & Android Developer with expertise in
+
+            FinTech, Wallet, E-commerce,
+
+            Astrology, Job Portal and Enterprise Applications.
+
+            Passionate about creating scalable,
+
+            secure and high-performance mobile applications.
+
+        </p>
+
+    </section>
+
+
+
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+
+        <h2>Technical Skills</h2>
+
+        <div class="grid">
+
+            <div class="card">Flutter</div>
+
+            <div class="card">Android</div>
+
+            <div class="card">Dart</div>
+
+            <div class="card">Java</div>
+
+            <div class="card">Kotlin</div>
+
+            <div class="card">Firebase</div>
+
+            <div class="card">REST APIs</div>
+
+            <div class="card">BLoC</div>
+
+            <div class="card">Provider</div>
+
+            <div class="card">GetX</div>
+
+            <div class="card">MVVM</div>
+
+            <div class="card">Clean Architecture</div>
+
+            <div class="card">SQLite</div>
+
+            <div class="card">CI/CD</div>
+
+            <div class="card">GitHub</div>
+
+            <div class="card">Payment Gateway</div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section id="experience">
+
+        <h2>Experience</h2>
+
+        <div class="timeline">
+
+            <div>
+
+                <h3>HyperBeans Technologies Pvt Ltd</h3>
+
+                <span>Senior Flutter Developer (2019 - 2026)</span>
+
+            </div>
+
+            <div>
+
+                <h3>GeeCom India Services Pvt Ltd</h3>
+
+                <span>Senior Android Developer (2018 - 2019)</span>
+
+            </div>
+
+            <div>
+
+                <h3>Maestros Infotech Pvt Ltd</h3>
+
+                <span>Senior Android Developer (2017 - 2018)</span>
+
+            </div>
+
+            <div>
+
+                <h3>C-DAC Pune</h3>
+
+                <span>Software Engineer (2011 - 2014)</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+
+        <h2>Featured Projects</h2>
+
+        <div class="project-grid">
+
+            <div class="project">
+
+                <h3>LinkConnect</h3>
+
+                <p>Job Portal Platform</p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>Trilok</h3>
+
+                <p>Astrology Platform</p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>DiamondXE</h3>
+
+                <p>Diamond Exchange Platform</p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>ForGrowthCoaching</h3>
+
+                <p>Online Coaching Platform</p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>TipMe Global</h3>
+
+                <p>Digital Wallet Application</p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>CTLF Driver UK</h3>
+
+                <p>Driver Booking Management</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <h2>Contact</h2>
+
+        <p>Email : yourmail@gmail.com</p>
+
+        <p>GitHub : github.com/singhneeraj0687-max</p>
+
+        <p>Location : Gwalior, India</p>
+
+    </section>
+
+
+
+
+
+    <footer>
+
+        © 2026 Neeraj Gandharva • Flutter Developer
+
+    </footer>
+
+    <script src="script.js"></script>
 
 </body>
+
 </html>
