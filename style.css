@@ -32,7 +32,7 @@ a{
 }
 
 section{
-    padding:90px 10%;
+    padding:40px 10%;
 }
 
 /* ===========================
@@ -101,9 +101,9 @@ nav ul li a:hover{
 
     align-items:center;
 
-    gap:80px;
+    gap:40px;
 
-    padding-top:120px;
+    padding-top:90px;
 }
 
 .hero-left{
@@ -141,7 +141,7 @@ nav ul li a:hover{
 
     line-height:1.8;
 
-    margin-bottom:35px;
+    margin-bottom:20px;
 }
 
 .hero-right{
@@ -219,7 +219,7 @@ nav ul li a:hover{
 
 .social{
 
-    margin-top:40px;
+    margin-top:20px;
 
     display:flex;
 
@@ -248,7 +248,7 @@ section h2{
 
     font-size:40px;
 
-    margin-bottom:30px;
+    margin-bottom:15px;
 
     color:#58A6FF;
 
@@ -307,7 +307,7 @@ section h2{
 
 .timeline div{
 
-    margin-bottom:40px;
+    margin-bottom:20px;
 
     position:relative;
 }
@@ -348,7 +348,7 @@ section h2{
 
     grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 
-    gap:30px;
+    gap:20px;
 }
 
 .project{
