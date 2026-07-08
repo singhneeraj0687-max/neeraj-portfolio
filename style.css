@@ -32,7 +32,7 @@ a{
 }
 
 section{
-    padding:40px 10%;
+    padding:25px 10%;
 }
 
 /* ===========================
@@ -93,8 +93,6 @@ nav ul li a:hover{
 
 .hero{
 
-    min-height:75vh;
-
     display:flex;
 
     justify-content:space-between;
@@ -103,7 +101,9 @@ nav ul li a:hover{
 
     gap:40px;
 
-    padding-top:80px;
+    padding:100px 10% 20px;
+
+    min-height:auto;
 }
 
 .hero-left{
@@ -265,7 +265,7 @@ section h2{
 
     grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
 
-    gap:25px;
+    gap:15px;
 }
 
 .card{
@@ -302,7 +302,7 @@ section h2{
 
     padding-left:35px;
 
-    margin-top:40px;
+    margin-top:20px;
 }
 
 .timeline div{
@@ -348,7 +348,7 @@ section h2{
 
     grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
 
-    gap:20px;
+    gap:15px;
 }
 
 .project{
