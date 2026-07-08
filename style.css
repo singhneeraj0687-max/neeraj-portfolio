@@ -93,7 +93,7 @@ nav ul li a:hover{
 
 .hero{
 
-    min-height:100vh;
+    min-height:75vh;
 
     display:flex;
 
@@ -103,7 +103,7 @@ nav ul li a:hover{
 
     gap:40px;
 
-    padding-top:90px;
+    padding-top:80px;
 }
 
 .hero-left{
