@@ -798,7 +798,31 @@ footer p{
     grid-template-columns:1fr;
 
 }
+/* Animation */
 
+.hidden{
+    opacity:0;
+    transform:translateY(40px);
+    transition:all .8s ease;
+}
+
+.show{
+    opacity:1;
+    transform:translateY(0);
+}
+
+/* Active Menu */
+
+.nav-menu a.active{
+    color:#4F8CFF;
+}
+
+/* Scroll Top Button */
+
+#topBtn:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 30px rgba(79,140,255,.6);
+}
 }
 
 
