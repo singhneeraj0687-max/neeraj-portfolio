@@ -58,7 +58,8 @@ body{
 
 section{
 
-    padding:90px 0;
+  padding: 40px 20px;   /* pehle agar 80px/100px hai to kam kar do */
+  margin: 0;
 
 }
 
